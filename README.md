@@ -12,3 +12,5 @@
   1. `mvn clean package -Pproduction`
   2. `java -jar target/vaadin-0.0.1-SNAPSHOT.jar`
   (Compiling will take a little bit of time due to installing of node packages.)
+#### Database schema with example data
+  Repository includes both, PostgreSQL schema and schema with data. Import the schema with `psql -U postgres -d postgres -f schema_with_example_data.sql`, if you are not using default PostgreSQL user and database, substitute the username and database in the command.
