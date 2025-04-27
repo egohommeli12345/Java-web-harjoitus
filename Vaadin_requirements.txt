@@ -1,0 +1,43 @@
+Tyylit:
+    1. styles.css
+    2. MainLayout.java
+    3. addProductView.css / AddProductView.java
+    4. AddProductView.java
+    5. customClasses.css / AddStoreView.java
+
+Entiteetit:
+    - Haku ja tallennus viewien kautta servicelayerille ja sieltä repositoryyn (näillä omat hakemistot)
+    1. Hakemistossa entities/
+    2. esim. Store ja Address
+    3. esim. Product ja NutritionalValue
+    4. Store ja Product
+    5.
+
+Suodattimet:
+    1. BrowseView.java
+    2. BrowseView.java
+    3. BrowseView.java
+    4.
+    5.
+
+Ulkoasu:
+    1. MainView.java
+    2. MainLayout.java
+    3. MainLayout.java
+    4. MainLayout.java
+    5. BrowseView.java, AddProductView.java, AddStoreView.java
+
+Autentikointi ja tietoturva:
+    1. Security on
+    2. LoginView.java
+    3. User.java
+    4. AdminView.java, AccessDeniedView.java
+    5. CustomAccessDeniedHandler.java
+
+Lisätoiminnallisuudet:
+    1. https://github.com/egohommeli12345/Java-web-harjoitus (PRIVATE)
+    2. RegisterView.java / SecurityConfig.java
+    3.
+    4.
+    5.
+    6.
